@@ -1,0 +1,26 @@
+{
+  "name": "time-stamp-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahheacock/time-stamp-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahheacock/time-stamp-api/issues"
+  },
+  "homepage": "https://github.com/sarahheacock/time-stamp-api#readme"
+}
