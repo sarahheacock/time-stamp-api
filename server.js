@@ -9,6 +9,7 @@ var logger = require("morgan");
 
 app.use(logger("dev"));
 app.use(jsonParser());
+app.use('/public', express.static(process.cwd() + '/public'));
 
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");

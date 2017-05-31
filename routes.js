@@ -4,7 +4,7 @@ var express = require("express");
 var router = express.Router();
 
 router.get("/", function(req,res){
-  res.send('<h1>whoot</h1>');
+  res.sendFile(process.cwd() + '/index.html');
 });
 
 router.get("/:date", function(req,res,next){
